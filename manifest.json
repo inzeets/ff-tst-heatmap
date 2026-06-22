@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "InZ - TST Recency Heatmap",
+  "version": "1.7.2",
+  "author": "In Zee",
+  "permissions": [
+    "tabs",
+    "sessions",
+    "storage"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "tst-recency-heatmap@local",
+      "strict_min_version": "134.0",
+      "update_url": "https://github.com/inzeets/ff-ext/raw/refs/heads/main/ext/updates.json"
+    }
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
